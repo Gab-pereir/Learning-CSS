@@ -1,0 +1,23 @@
+/* Estilizando o exemplo de display: inline, block e inline-block */
+.inline-example {
+    display: inline;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+}
+
+.block-example {
+    display: block;
+    background-color: #d4edda;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inline-block-example {
+    /* Utilizando display: inline-block para os spans */
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
