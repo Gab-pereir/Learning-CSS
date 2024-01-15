@@ -9,3 +9,11 @@ h1 {
 p{
     color: #3333c4;
 }
+
+.div-direita h1 {
+    color: #ffff00;
+}
+
+.div-direita h1 {
+    color: #00ff55;
+}

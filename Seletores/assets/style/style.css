@@ -1,0 +1,39 @@
+/* Seletores Básicos */
+h1 {
+    color: #007BFF;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Seletores de Classe e ID */
+.destaque {
+    background-color: #FFC107;
+}
+
+#paragrafo-id {
+    color: #28A745;
+}
+
+/* Seletores de Atributo */
+input[type="text"] {
+    border: 1px solid #DC3545;
+}
+
+/* Seletores de Descendência */
+article p {
+    font-weight: bold;
+}
+
+/* Pseudo-classes */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pseudo-elementos */
+p::first-line {
+    color: #6C757D;
+    font-weight: bold;
+}
