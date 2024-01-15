@@ -1,0 +1,8 @@
+/* Estilizando o exemplo de Shorthand */
+.shorthand-example {
+    width: 200px;
+    height: 100px;
+    margin: 10px 20px 30px 40px; /* Shorthand para definir margens (topo direita baixo esquerda) */
+    border: 2px solid #007BFF; /* Shorthand para definir borda (largura estilo cor) */
+    background-color: #f2f2f2;
+}
