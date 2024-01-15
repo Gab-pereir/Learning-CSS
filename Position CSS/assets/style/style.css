@@ -1,0 +1,61 @@
+/* Estilizando o exemplo de Position */
+body {
+    margin: 0;
+}
+
+/* Estilizando o elemento com position: fixed */
+.fixed-example {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Estilizando o elemento com position: sticky */
+.sticky-example {
+    position: sticky;
+    top: 10px;
+    background-color: #d4edda;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Estilizando o container com position: relative */
+.relative-example {
+    position: relative;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Estilizando a caixa interna com position: absolute */
+.relative-example .relative-box {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ffcc00;
+    padding: 10px;
+}
+
+/* Estilizando o container com position: absolute */
+.absolute-example {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    background-color: #ff6666;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Estilizando a caixa interna com position: absolute */
+.absolute-example .absolute-box {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #990000;
+    color: #fff;
+    padding: 10px;
+}
