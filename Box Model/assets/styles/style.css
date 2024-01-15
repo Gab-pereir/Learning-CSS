@@ -1,0 +1,10 @@
+/* Estilizando o exemplo do Box Model */
+.box-example {
+    width: 200px; /* Largura do elemento */
+    height: 100px; /* Altura do elemento */
+    margin: 20px; /* Margens externas */
+    padding: 10px; /* Preenchimento interno */
+    border: 2px solid #007BFF; /* Borda sólida de 2 pixels com cor #007BFF */
+    background-color: #f2f2f2; /* Cor de fundo */
+    box-sizing: border-box; /* Faz com que os paddings e border não somem na altura ou largura da caixa */
+}
