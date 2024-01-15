@@ -1,0 +1,22 @@
+/* Estilizando o exemplo de Unidades de Medida */
+.measurement-example {
+    width: 80%; /* Largura de 80% da largura do pai */
+    margin: 20px auto; /* Margens externas de 20 pixels no topo e na base, e automaticamente à esquerda e à direita */
+    padding: 10px; /* Preenchimento interno de 10 pixels */
+    border: 1px solid #007BFF; /* Borda sólida de 1 pixel com cor #007BFF */
+    background-color: #f2f2f2; /* Cor de fundo */
+
+    /* Utilizando a unidade 'em' para definir o tamanho da fonte */
+    font-size: 1.2em; /* 1.2 vezes o tamanho padrão da fonte */
+
+    /* Utilizando a unidade 'vw' para definir a largura do elemento em relação à largura da janela */
+    max-width: 800px; /* Largura máxima de 800 pixels ou 80% da largura da janela, o que for menor */
+}
+
+/* Estilizando a caixa interna */
+.measurement-example .box {
+    width: 50%; /* Largura de 50% do contêiner pai */
+    height: 100px; /* Altura fixa de 100 pixels */
+    margin-top: 20px; /* Margem superior de 20 pixels */
+    background-color: #28A745; /* Cor de fundo verde */
+}
