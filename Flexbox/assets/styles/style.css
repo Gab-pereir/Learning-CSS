@@ -1,0 +1,36 @@
+/* Estilizando o exemplo de Flexbox */
+body {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex; /* Ativa o modelo de layout Flexbox no contêiner */
+    justify-content: space-around; /* Alinha os itens com espaçamento uniforme ao redor deles */
+    align-items: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Altura do viewport */
+    background-color: #f2f2f2;
+}
+
+/* Estilizando os itens flexíveis */
+.flex-item {
+    flex: 1; /* Ocupa uma parte igual do espaço disponível */
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Exemplo 2: Modificando tamanhos de itens específicos */
+.flex-item-large {
+    flex-grow: 2; /* Cresce duas vezes mais que os outros itens */
+}
+
+.flex-item-small {
+    flex-shrink: 2; /* Encolhe duas vezes mais que os outros itens */
+}
+
+/* Exemplo 3: Modificando largura de um item específico */
+.flex-item-wide {
+    flex-basis: 300px; /* Define a largura inicial do item */
+}
