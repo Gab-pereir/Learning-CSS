@@ -1,0 +1,38 @@
+/* Estilizando o exemplo de z-index */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilizando as caixas */
+.box {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #007BFF;
+}
+
+/* Definindo a posição e z-index das caixas */
+.box1 {
+    position: relative;
+    background-color: #f2f2f2;
+    z-index: 1;
+}
+
+.box2 {
+    position: relative;
+    background-color: #d4edda;
+    margin-top: -50px; /* Sobrepondo a caixa anterior */
+    z-index: 2;
+}
+
+.box3 {
+    position: relative;
+    background-color: #007BFF;
+    margin-top: -50px; /* Sobrepondo a caixa anterior */
+    z-index: 3;
+}
