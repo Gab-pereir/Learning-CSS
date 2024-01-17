@@ -1,0 +1,25 @@
+/* Estilizando o exemplo de CSS Transition */
+.transition-example {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilizando o botão com a transição */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+
+    /* Definindo a transição para as propriedades de background-color e transform */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Adicionando estilos quando o botão está em hover */
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
