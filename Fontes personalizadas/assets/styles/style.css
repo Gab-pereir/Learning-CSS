@@ -1,0 +1,22 @@
+/* Estilizando o exemplo de Fontes Personalizadas */
+.custom-font-example {
+    font-family: 'CustomFont', sans-serif;
+    /* Usando uma fonte personalizada e, caso não esteja disponível, fallback para fontes sans-serif */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Definindo a fonte personalizada com @font-face */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('custom-font.woff2') format('woff2'), /* Formato WOFF2 para navegadores modernos */
+         url('custom-font.woff') format('woff'); /* Formato WOFF para compatibilidade com navegadores mais antigos */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Estilizando o texto com a fonte personalizada */
+.custom-font {
+    font-size: 1.5em;
+    color: #007BFF;
+}
