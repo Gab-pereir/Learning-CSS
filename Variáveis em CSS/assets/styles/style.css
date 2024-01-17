@@ -1,0 +1,21 @@
+/* Definindo variáveis */
+:root {
+    --cor-destaque: #007BFF;
+    --cor-fundo: #f2f2f2;
+    --espacamento-vertical: 20px;
+}
+
+/* Estilizando o exemplo de Variáveis em CSS */
+.variable-example {
+    background-color: var(--cor-fundo); /* Usando a variável para a cor de fundo */
+    padding: 20px;
+    text-align: center;
+}
+
+.variable-example h1 {
+    color: var(--cor-destaque); /* Usando a variável para a cor do destaque */
+}
+
+.variable-example p {
+    margin-top: var(--espacamento-vertical); /* Usando a variável para o espaçamento vertical */
+}
