@@ -1,0 +1,25 @@
+/* Estilizando o exemplo de Media Queries */
+
+/* Estilos padrão para telas maiores */
+.media-query-example {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Query para telas menores que 600 pixels */
+@media only screen and (max-width: 600px) {
+    .media-query-example {
+        background-color: #d4edda;
+        color: #28A745;
+    }
+}
+
+/* Media Query para telas entre 600 e 900 pixels */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .media-query-example {
+        background-color: #007BFF;
+        color: #fff;
+    }
+}
